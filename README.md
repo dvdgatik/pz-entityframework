@@ -71,3 +71,6 @@ Consistencia de datos: Entity Framework garantiza la consistencia de los datos m
 Flexibilidad: Entity Framework es compatible con una amplia variedad de sistemas de gestión de bases de datos, lo que significa que los desarrolladores pueden trabajar con diferentes sistemas de gestión de bases de datos sin tener que realizar cambios significativos en su código.
 Optimización de rendimiento: Entity Framework incluye un sistema de caché incorporado que permite optimizar el rendimiento de las consultas y mejorar la eficiencia de la aplicación.
 Mejora de la calidad del código: Entity Framework promueve la escritura de código limpio y mantenible, lo que facilita la depuración y el mantenimiento a largo plazo.
+
+
+EntityFramewoerk memory nos ayuda a crear una base de datos en meoria y probar el modelo que estamos utilziando
