@@ -1,5 +1,10 @@
 namespace projectef.Models;
 
+//Creacion de modelos que se convertiran en tablas de la base de datos
+
+//Clase Tareas y propiedades
+
+// Guid Universally Unique Identifier
 public class Tarea {
     public Guid TareaId {get;set;}
     public Guid CategoriaId {get;set;}
@@ -10,6 +15,8 @@ public class Tarea {
     public virtual Categoria Categoria {get; set;}
 }
 
+
+//Enumeracion en base de datos
 public enum Prioridad {
     Baja,
     Media,

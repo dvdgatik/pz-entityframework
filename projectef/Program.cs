@@ -6,6 +6,7 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
+// Rutas
 app.MapGet("/", () => "Hello World!");
 
 app.Run();
