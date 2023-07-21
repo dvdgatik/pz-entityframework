@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddDbContext<TareasContext>(p => p.UseInMemoryDatabase("TareasDB"));
 //Hacemos el mapeo del mismo contexto
-builder.Services.AddSqlServer<TareasContext>("Data Source=(local);Initial Catalog=TareasDb;Trust Server Certificate=true;user id=sa;password=12358");
+builder.Services.AddSqlServer<TareasContext>(builder.Configuration.GetConnectionString("cnTareas"));
 var app = builder.Build();
 
 // Rutas
